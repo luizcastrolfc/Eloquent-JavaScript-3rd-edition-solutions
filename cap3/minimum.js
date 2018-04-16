@@ -1,4 +1,3 @@
-
 //03.1 - Minimum
 
 const min = (a, b) => {
