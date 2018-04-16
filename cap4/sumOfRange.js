@@ -16,9 +16,9 @@ const range = (start, end, step = start > end ? -1 : 1) => {
 }
 
 const sum = (range) => {
-	let result = 0, i;
-  	for( i = 0; i < range.length; i++)
-      result += range[i];
+	let result = 0;
+  	for (const n of range)
+      result += n;
   	return result;
 }
 console.log(range(1, 10));
