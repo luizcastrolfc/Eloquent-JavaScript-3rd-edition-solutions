@@ -1,5 +1,4 @@
-function every(array, test) {
-  // Your code here.
+const every = (array, test) => {
   for (let item of array)
     if(!test(item))
       return false;
